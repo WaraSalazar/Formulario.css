@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/*esta aprte de body fizemos onde fica o fundo da imagens, onde fica o fundo do fomularioa*/
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url(./imagens/wallpeper.gif) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    width: 420px;
+    background-color:transparent;
+    border: 2px solid rgba(189, 97, 97, 0.2);
+    border-radius:10px ;
+    color: #fff;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px rgba(0,0 ,0 ,0.8);
+    backdrop-filter:blur(20px);
+}
+
+.container h1{
+    font-size: 36px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+    position: relative;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius:40px;
+    color: #fff;
+    outline: none;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 25%;
+    font-size: 20px;
+}
+
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-forgot a{
+    text-decoration: none;
+    color: rgb(34, 11, 11);
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.login{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(46, 5, 5);
+    border: none;
+    border-radius:40px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px rgba(0,0 , 0,0.3 );
+    margin-top: 20px;
+    color: #fff;
+    
+}
+
+.login:hover{
+    background-color: transparent;
+    transition: 0.5s;
+    border: 2px solid rgba(56, 17, 17, 0.2);
+    color: #fff;
+}
+
+.registre-link{
+    text-align: center;
+    font-size: 14px;
+    margin: 20px 0px 15px;
+}
+
+.registre-link a{
+    text-decoration: none;
+    color: rgb(34, 11, 11);
+    font-weight: 600;
+}
+
+.registre-link a:hover{
+    text-decoration: underline;
+}
